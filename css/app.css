@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Begin Global Styles */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    background: 
+    linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+    linear-gradient(45deg, #ECEDDC 25%, transparent 25%);   
+    background-size: 10px 50px;
+    background-color: #ccc;
+}
+p {
+    line-height: 180%;
+}
+#main {
+    width: 900px;
+    margin: 0 auto 20px;
+    box-shadow: 0px 0px 12px rgba(0,0,0,.5);
+    padding: 20px;
+    min-height: 500px;
+    background: white;
+}
+#results h1 {
+    font-size: 6em;
+    font-weight: 100;
+    text-align: center;
+}
+label {
+    font-size: 2.2em;
+    font-family: 'Lobster', cursive;
+}
+input#search {
+    padding: 10px;
+    width: 30em;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+#results > div.searchbar {
+    padding: 40px 0 20px;
+}
+#results > div.searchbar p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+button {
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+.clickBtn {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#results a {
+    text-decoration: none;
+    display: block;
+    margin: 0 0 30px;
+    color: teal;
+    font-size: 1.4em;
+    display: none;
+}
+.resultItem {
+    margin: 30px 0;
+}
+
+/* Tablet & Mobile Version */
+@media all and (max-width: 960px) {
+    
+    #main, input#search {
+        width: 85%;
+    }
+    #main {
+        min-height: 440px;
+    }
+
+}
