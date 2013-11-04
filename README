@@ -1,0 +1,9 @@
+This uses the RequireJS and BackboneJS Starter which can be found here: https://github.com/jcreamer898/RequireJS-Backbone-Starter
+
+Yes I realize I could've forked, but I was playing with a new deploy strategy & wanted to try it from scratch. Apologies to @jcreamer898!
+
+All this does is runs searches through the Reddit API. Have fun.
+
+@disule
+
+disule@gmail.com
