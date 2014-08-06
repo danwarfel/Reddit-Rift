@@ -1,9 +1,12 @@
-This uses the RequireJS and BackboneJS Starter which can be found here: https://github.com/jcreamer898/RequireJS-Backbone-Starter
+REDDIT RIFT
+===
 
-Yes I realize I could've forked, but I was playing with a new deploy strategy & wanted to try it from scratch. Apologies to @jcreamer898!
+##A simple search engine web app built in Backbone just to mess around with the Reddit API.
 
-All this does is runs searches through the Reddit API. Have fun.
+This uses RequireJS & BackboneJS.
 
-@disule
+Have fun.
 
-disule@gmail.com
+@danwarfel
+
+danwarfel@gmail.com
